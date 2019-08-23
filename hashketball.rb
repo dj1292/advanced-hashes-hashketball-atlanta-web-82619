@@ -204,8 +204,12 @@ end
 
 def big_shoe_rebounds
   bigShoe = 0
-  boards = 0
-  if player[:shoe] > bigShoe
-    bigShoe = player[:shoe] 
+  rebounds = 0
+  game_hash.each do |side, team|
+    team[:players].each |stats|
+  if stats[:shoe] > bigShoe
+    bigShoe = stats[:shoe] 
+    boards = stats[:rebounds]
+    end
   end
 end   
