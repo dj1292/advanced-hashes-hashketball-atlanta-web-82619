@@ -205,6 +205,6 @@ end
 def big_shoe_rebounds
   bigShoe = 0
   boards = 0
-  game_hash.each do |side, team|
+  if 
   end
 end   
