@@ -203,8 +203,8 @@ def player_stats(players_name)
 end
 
 def big_shoe_rebounds
-  bigShoe = 19
-  boards = 11
+  bigShoe = 0
+  boards = 0
   game_hash.each do |side, team|
     team.each do |attributes, data|
       if attributes == :players
