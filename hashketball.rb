@@ -206,13 +206,4 @@ def big_shoe_rebounds
   bigShoe = 0
   boards = 0
   game_hash.each do |side, team|
-    team.each do |attributes, data|
-      if attributes == :players
-     data.each do |player|
-       if player[:shoe] ==  
-       binding.pry
-        end 
-      end 
-    end 
-  end 
-end 
+    
