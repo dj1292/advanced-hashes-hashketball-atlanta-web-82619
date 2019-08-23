@@ -206,6 +206,6 @@ def big_shoe_rebounds
   bigShoe = 0
   boards = 0
   if player[:shoe] > bigShoe
-    bigShoe = 
+    bigShoe = player 
   end
 end   
